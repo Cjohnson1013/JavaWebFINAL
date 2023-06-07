@@ -1,0 +1,147 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Amiri';
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B31312;
+    max-width: 1200px;
+    max-height: 78px;
+}
+
+.logo {
+    font-size: 3.6rem;
+    padding-left: 1.0em;
+    text-decoration: none;
+    color: #EA906C;
+    -webkit-text-stroke: .01px black;
+}
+
+nav {
+    margin: 4em;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 4.0em;
+    margin: 0;
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+   font-size: 2.0rem;
+  
+}
+
+.main {
+    background-image: url('images/peter-broomfield-m3m-lnR90uM-unsplash.jpg');
+    background-size: 100%;
+    width: 1200px;
+    height: 411px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+.text {
+    display: flex;
+    gap: .3em;
+    font-size: 3.2rem;
+    color: white;
+    padding-left: 1.0em;
+    padding-top: 2.82em;
+}
+
+.an {
+    color: #B31312;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+.full {
+    color: #B31312;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.left-col {
+    display: grid;
+    gap: .2em;
+    grid-template-columns: repeat(11,auto);
+    grid-template-areas: 
+    "left right "
+    "left bottom ";
+    
+}
+
+.card1 {
+    grid-area: left;
+    border-radius: .8em;
+    align-items: end;
+    background-image: url('images/dhiva-krishna-YApS6TjKJ9c-unsplash.jpg');
+    width: 26.5em;
+    height: 45.1em;
+    background-size: 120%;
+   
+}
+ .card2 {
+    grid-area: right;
+    border-radius: .8em;
+    align-items: end;
+    background-image: url('images/olav-tvedt-6lSBynPRaAQ-unsplash.jpg');
+    width: 33.1em;
+    height: 22.6em;
+    background-size: 110%;
+    right: 500rem;
+    
+ }
+
+.left-cta {
+    grid-area: bottom;
+    background-color: #EA906C;
+    width: 300px;
+    height: 80px;
+    border-radius: 2.2em;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.card-details{
+    background: white;
+    border-radius: .8em;
+    padding: 2em;
+    width: 50%;
+    height: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    
+    
+    
+}
+.card {
+    display: flex;
+    text-decoration: none;
+    padding: 1.1em;
+}
